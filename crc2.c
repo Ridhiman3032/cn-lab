@@ -6,7 +6,7 @@ void check();
 
 void main()
 {
-    	printf("\nEnter data at sender site:");
+    	printf("\nEnter data at sender site:");+
     	gets(data);
     	printf("\nEnter polynomial:");
     	gets(divi);
@@ -48,8 +48,7 @@ void main()
 	}
 
 	if(flag==1)
-	{
-	    printf("\nErrors");
+        {printf("\nErrors");
 	}
 	else if(flag==0)
 	{
